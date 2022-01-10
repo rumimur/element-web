@@ -1,0 +1,6 @@
+[submodule "js-sdk"]
+	path = js-sdk
+	url = https://github.com/rumimur/matrix-js-sdk.git
+[submodule "react-sdk"]
+	path = react-sdk
+	url = https://github.com/rumimur/matrix-react-sdk.git
