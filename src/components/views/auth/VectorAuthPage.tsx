@@ -42,8 +42,6 @@ export default class VectorAuthPage extends React.PureComponent {
     }
 
     render() {
-        const AuthFooter = sdk.getComponent('auth.AuthFooter');
-
         const pageStyle = {
             background: `center/cover fixed url(${VectorAuthPage.getWelcomeBackgroundUrl()})`,
         };
@@ -78,7 +76,6 @@ export default class VectorAuthPage extends React.PureComponent {
                         { this.props.children }
                     </div>
                 </div>
-                <AuthFooter />
             </div>
         );
     }
